@@ -50,10 +50,12 @@
             this.btnSesion1.TabIndex = 0;
             this.btnSesion1.Text = "SESIÓN 1";
             this.btnSesion1.UseVisualStyleBackColor = false;
+            this.btnSesion1.Click += new System.EventHandler(this.btnSesion1_Click);
             // 
             // btnCerrar
             // 
             this.btnCerrar.BackColor = System.Drawing.Color.LimeGreen;
+            this.btnCerrar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCerrar.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnCerrar.Location = new System.Drawing.Point(137, 207);
             this.btnCerrar.Name = "btnCerrar";
