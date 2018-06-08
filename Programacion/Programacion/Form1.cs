@@ -19,9 +19,29 @@ namespace Programacion
 
         private void btnSesion1_Click(object sender, EventArgs e)
         {
-            Sesion1 sesion = new Sesion1();
-            sesion.Show();
+            //Creamos un nuevo objeto.
+            Sesion1 sesion1 = new Sesion1();
+            //Mostramos al objeto creado.
+            sesion1.Show();
+            //Ocultamos este formulario.
             this.Hide();
         }
+
+        private void btnSesion2_Click(object sender, EventArgs e)
+        {
+            //Creamos un nuevo objeto.
+            Sesion2 sesion2 = new Sesion2();
+            //Mostramos al objeto creado.
+            sesion2.Show();
+            //Ocultamos este formulario.
+            this.Hide();
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            //Cerramos nuestro formulario.
+            Close();
+        }
+
     }
 }

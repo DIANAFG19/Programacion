@@ -16,5 +16,24 @@ namespace Programacion
         {
             InitializeComponent();
         }
+
+        private void btnRegresar_Click(object sender, EventArgs e)
+        {
+            //Creamos un nuevo objeto.
+            Inicio inicio = new Inicio();
+            //Mostramos al objeto creado.
+            inicio.Show();
+            //Cerramos el formulario actual.
+            Close();
+        }
+
+        private void btnCerrar_Click(object sender, EventArgs e)
+        {
+            //Creamos un nuevo objeto.
+            Inicio inicio = new Inicio();
+            //Mostramos al objeto creado.
+            inicio.Close();
+            this.Close();
+        }
     }
 }

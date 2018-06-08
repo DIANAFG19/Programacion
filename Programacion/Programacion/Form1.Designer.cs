@@ -63,6 +63,7 @@
             this.btnCerrar.TabIndex = 9;
             this.btnCerrar.Text = "CERRAR";
             this.btnCerrar.UseVisualStyleBackColor = false;
+            this.btnCerrar.Click += new System.EventHandler(this.btnCerrar_Click);
             // 
             // btnSesion9
             // 
@@ -151,6 +152,7 @@
             this.btnSesion2.TabIndex = 1;
             this.btnSesion2.Text = "SESIÓN 2";
             this.btnSesion2.UseVisualStyleBackColor = false;
+            this.btnSesion2.Click += new System.EventHandler(this.btnSesion2_Click);
             // 
             // Inicio
             // 
