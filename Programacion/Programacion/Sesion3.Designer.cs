@@ -52,6 +52,7 @@
             this.tbUsuario.Name = "tbUsuario";
             this.tbUsuario.Size = new System.Drawing.Size(210, 20);
             this.tbUsuario.TabIndex = 1;
+            this.tbUsuario.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbUsuario_KeyPress);
             // 
             // label2
             // 
@@ -69,6 +70,7 @@
             this.tbContrasena.Name = "tbContrasena";
             this.tbContrasena.Size = new System.Drawing.Size(210, 20);
             this.tbContrasena.TabIndex = 3;
+            this.tbContrasena.UseSystemPasswordChar = true;
             // 
             // btnAceptar
             // 
