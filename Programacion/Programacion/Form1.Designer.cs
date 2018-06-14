@@ -141,6 +141,7 @@
             this.btnSesion3.TabIndex = 2;
             this.btnSesion3.Text = "SESIÓN 3";
             this.btnSesion3.UseVisualStyleBackColor = false;
+            this.btnSesion3.Click += new System.EventHandler(this.btnSesion3_Click);
             // 
             // btnSesion2
             // 

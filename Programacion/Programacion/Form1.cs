@@ -29,11 +29,15 @@ namespace Programacion
 
         private void btnSesion2_Click(object sender, EventArgs e)
         {
-            //Creamos un nuevo objeto.
             Sesion2 sesion2 = new Sesion2();
-            //Mostramos al objeto creado.
             sesion2.Show();
-            //Ocultamos este formulario.
+            this.Hide();
+        }
+
+        private void btnSesion3_Click(object sender, EventArgs e)
+        {
+            Sesion3 sesion3 = new Sesion3();
+            sesion3.Show();
             this.Hide();
         }
 
@@ -41,7 +45,6 @@ namespace Programacion
         {
             //Cerramos nuestro formulario.
             Close();
-        }
-
+        }       
     }
 }
