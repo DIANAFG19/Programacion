@@ -39,6 +39,10 @@
             this.btnMas = new System.Windows.Forms.Button();
             this.btnResultado = new System.Windows.Forms.Button();
             this.tbResultado = new System.Windows.Forms.TextBox();
+            this.btnMenos = new System.Windows.Forms.Button();
+            this.btnPor = new System.Windows.Forms.Button();
+            this.btnEntre = new System.Windows.Forms.Button();
+            this.btnLimpiar = new System.Windows.Forms.Button();
             this.gbOperacion.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -50,6 +54,7 @@
             this.btnSuma.TabIndex = 1;
             this.btnSuma.Text = "Suma";
             this.btnSuma.UseVisualStyleBackColor = true;
+            this.btnSuma.Click += new System.EventHandler(this.btnSuma_Click);
             // 
             // btnResta
             // 
@@ -59,6 +64,7 @@
             this.btnResta.TabIndex = 2;
             this.btnResta.Text = "Resta";
             this.btnResta.UseVisualStyleBackColor = true;
+            this.btnResta.Click += new System.EventHandler(this.btnResta_Click);
             // 
             // btnMulti
             // 
@@ -93,7 +99,7 @@
             // 
             // btnSalir
             // 
-            this.btnSalir.Location = new System.Drawing.Point(196, 228);
+            this.btnSalir.Location = new System.Drawing.Point(255, 232);
             this.btnSalir.Name = "btnSalir";
             this.btnSalir.Size = new System.Drawing.Size(85, 34);
             this.btnSalir.TabIndex = 5;
@@ -118,12 +124,13 @@
             // 
             // btnMas
             // 
-            this.btnMas.Location = new System.Drawing.Point(231, 143);
+            this.btnMas.Location = new System.Drawing.Point(219, 142);
             this.btnMas.Name = "btnMas";
             this.btnMas.Size = new System.Drawing.Size(30, 30);
             this.btnMas.TabIndex = 2;
             this.btnMas.Text = "+";
             this.btnMas.UseVisualStyleBackColor = true;
+            this.btnMas.Click += new System.EventHandler(this.btnMas_Click);
             // 
             // btnResultado
             // 
@@ -133,6 +140,7 @@
             this.btnResultado.TabIndex = 3;
             this.btnResultado.Text = "Resultado";
             this.btnResultado.UseVisualStyleBackColor = true;
+            this.btnResultado.Click += new System.EventHandler(this.btnResultado_Click);
             // 
             // tbResultado
             // 
@@ -141,11 +149,54 @@
             this.tbResultado.Size = new System.Drawing.Size(100, 20);
             this.tbResultado.TabIndex = 4;
             // 
+            // btnMenos
+            // 
+            this.btnMenos.Location = new System.Drawing.Point(264, 142);
+            this.btnMenos.Name = "btnMenos";
+            this.btnMenos.Size = new System.Drawing.Size(30, 30);
+            this.btnMenos.TabIndex = 6;
+            this.btnMenos.Text = "-";
+            this.btnMenos.UseVisualStyleBackColor = true;
+            this.btnMenos.Visible = false;
+            // 
+            // btnPor
+            // 
+            this.btnPor.Location = new System.Drawing.Point(310, 142);
+            this.btnPor.Name = "btnPor";
+            this.btnPor.Size = new System.Drawing.Size(30, 30);
+            this.btnPor.TabIndex = 7;
+            this.btnPor.Text = "*";
+            this.btnPor.UseVisualStyleBackColor = true;
+            this.btnPor.Visible = false;
+            // 
+            // btnEntre
+            // 
+            this.btnEntre.Location = new System.Drawing.Point(355, 142);
+            this.btnEntre.Name = "btnEntre";
+            this.btnEntre.Size = new System.Drawing.Size(30, 30);
+            this.btnEntre.TabIndex = 8;
+            this.btnEntre.Text = "/";
+            this.btnEntre.UseVisualStyleBackColor = true;
+            this.btnEntre.Visible = false;
+            // 
+            // btnLimpiar
+            // 
+            this.btnLimpiar.Location = new System.Drawing.Point(147, 232);
+            this.btnLimpiar.Name = "btnLimpiar";
+            this.btnLimpiar.Size = new System.Drawing.Size(85, 34);
+            this.btnLimpiar.TabIndex = 9;
+            this.btnLimpiar.Text = "Limpiar";
+            this.btnLimpiar.UseVisualStyleBackColor = true;
+            // 
             // Sesion3
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(467, 278);
+            this.Controls.Add(this.btnLimpiar);
+            this.Controls.Add(this.btnEntre);
+            this.Controls.Add(this.btnPor);
+            this.Controls.Add(this.btnMenos);
             this.Controls.Add(this.btnMas);
             this.Controls.Add(this.tbResultado);
             this.Controls.Add(this.btnResultado);
@@ -176,5 +227,9 @@
         private System.Windows.Forms.Label label;
         private System.Windows.Forms.TextBox tbNumero;
         private System.Windows.Forms.Button btnSalir;
+        private System.Windows.Forms.Button btnMenos;
+        private System.Windows.Forms.Button btnPor;
+        private System.Windows.Forms.Button btnEntre;
+        private System.Windows.Forms.Button btnLimpiar;
     }
 }
