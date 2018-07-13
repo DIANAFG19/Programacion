@@ -39,7 +39,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(48, 44);
+            this.label1.Location = new System.Drawing.Point(17, 32);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(46, 13);
             this.label1.TabIndex = 0;
@@ -47,7 +47,7 @@
             // 
             // tbUsuario
             // 
-            this.tbUsuario.Location = new System.Drawing.Point(138, 41);
+            this.tbUsuario.Location = new System.Drawing.Point(107, 29);
             this.tbUsuario.MaxLength = 20;
             this.tbUsuario.Name = "tbUsuario";
             this.tbUsuario.Size = new System.Drawing.Size(210, 20);
@@ -57,7 +57,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(51, 80);
+            this.label2.Location = new System.Drawing.Point(20, 68);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(64, 13);
             this.label2.TabIndex = 2;
@@ -65,7 +65,7 @@
             // 
             // tbContrasena
             // 
-            this.tbContrasena.Location = new System.Drawing.Point(138, 77);
+            this.tbContrasena.Location = new System.Drawing.Point(107, 65);
             this.tbContrasena.MaxLength = 10;
             this.tbContrasena.Name = "tbContrasena";
             this.tbContrasena.Size = new System.Drawing.Size(210, 20);
@@ -74,7 +74,7 @@
             // 
             // btnAceptar
             // 
-            this.btnAceptar.Location = new System.Drawing.Point(117, 133);
+            this.btnAceptar.Location = new System.Drawing.Point(72, 122);
             this.btnAceptar.Name = "btnAceptar";
             this.btnAceptar.Size = new System.Drawing.Size(75, 23);
             this.btnAceptar.TabIndex = 4;
@@ -85,7 +85,7 @@
             // btnCancelar
             // 
             this.btnCancelar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
-            this.btnCancelar.Location = new System.Drawing.Point(226, 133);
+            this.btnCancelar.Location = new System.Drawing.Point(181, 122);
             this.btnCancelar.Name = "btnCancelar";
             this.btnCancelar.Size = new System.Drawing.Size(75, 23);
             this.btnCancelar.TabIndex = 5;
@@ -99,7 +99,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCancelar;
-            this.ClientSize = new System.Drawing.Size(416, 184);
+            this.ClientSize = new System.Drawing.Size(346, 184);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.btnAceptar);
             this.Controls.Add(this.tbContrasena);

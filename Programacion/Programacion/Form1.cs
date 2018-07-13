@@ -41,10 +41,17 @@ namespace Programacion
             this.Hide();
         }
 
+        private void btnSesion4_Click(object sender, EventArgs e)
+        {
+            Sesion4 sesion4 = new Sesion4();
+            sesion4.Show();
+            this.Hide();
+        }
+
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             //Cerramos nuestro formulario.
             Close();
-        }       
+        }
     }
 }
