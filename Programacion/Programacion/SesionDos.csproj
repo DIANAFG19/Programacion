@@ -77,6 +77,12 @@
     <Compile Include="Sesion4.Designer.cs">
       <DependentUpon>Sesion4.cs</DependentUpon>
     </Compile>
+    <Compile Include="Sesion5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sesion5.Designer.cs">
+      <DependentUpon>Sesion5.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -100,6 +106,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Sesion4.resx">
       <DependentUpon>Sesion4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sesion5.resx">
+      <DependentUpon>Sesion5.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
