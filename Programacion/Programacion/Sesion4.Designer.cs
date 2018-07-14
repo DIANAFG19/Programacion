@@ -54,14 +54,16 @@
             this.btnSiete.TabIndex = 1;
             this.btnSiete.Text = "7";
             this.btnSiete.UseVisualStyleBackColor = true;
+            this.btnSiete.Click += new System.EventHandler(this.btnSiete_Click);
             // 
             // tbPantalla
             // 
+            this.tbPantalla.Font = new System.Drawing.Font("Consolas", 20.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbPantalla.Location = new System.Drawing.Point(28, 22);
             this.tbPantalla.Multiline = true;
             this.tbPantalla.Name = "tbPantalla";
             this.tbPantalla.ReadOnly = true;
-            this.tbPantalla.Size = new System.Drawing.Size(207, 34);
+            this.tbPantalla.Size = new System.Drawing.Size(207, 41);
             this.tbPantalla.TabIndex = 0;
             // 
             // btnOcho
@@ -72,6 +74,7 @@
             this.btnOcho.TabIndex = 2;
             this.btnOcho.Text = "8";
             this.btnOcho.UseVisualStyleBackColor = true;
+            this.btnOcho.Click += new System.EventHandler(this.btnOcho_Click);
             // 
             // btnNueve
             // 
@@ -81,6 +84,7 @@
             this.btnNueve.TabIndex = 3;
             this.btnNueve.Text = "9";
             this.btnNueve.UseVisualStyleBackColor = true;
+            this.btnNueve.Click += new System.EventHandler(this.btnNueve_Click);
             // 
             // btnCuatro
             // 
@@ -90,6 +94,7 @@
             this.btnCuatro.TabIndex = 4;
             this.btnCuatro.Text = "4";
             this.btnCuatro.UseVisualStyleBackColor = true;
+            this.btnCuatro.Click += new System.EventHandler(this.btnCuatro_Click);
             // 
             // btnCinco
             // 
@@ -99,6 +104,7 @@
             this.btnCinco.TabIndex = 5;
             this.btnCinco.Text = "5";
             this.btnCinco.UseVisualStyleBackColor = true;
+            this.btnCinco.Click += new System.EventHandler(this.btnCinco_Click);
             // 
             // btnSeis
             // 
@@ -108,6 +114,7 @@
             this.btnSeis.TabIndex = 6;
             this.btnSeis.Text = "6";
             this.btnSeis.UseVisualStyleBackColor = true;
+            this.btnSeis.Click += new System.EventHandler(this.btnSeis_Click);
             // 
             // btnUno
             // 
@@ -117,6 +124,7 @@
             this.btnUno.TabIndex = 7;
             this.btnUno.Text = "1";
             this.btnUno.UseVisualStyleBackColor = true;
+            this.btnUno.Click += new System.EventHandler(this.btnUno_Click);
             // 
             // btnDos
             // 
@@ -126,6 +134,7 @@
             this.btnDos.TabIndex = 8;
             this.btnDos.Text = "2";
             this.btnDos.UseVisualStyleBackColor = true;
+            this.btnDos.Click += new System.EventHandler(this.btnDos_Click);
             // 
             // btnTres
             // 
@@ -135,6 +144,7 @@
             this.btnTres.TabIndex = 9;
             this.btnTres.Text = "3";
             this.btnTres.UseVisualStyleBackColor = true;
+            this.btnTres.Click += new System.EventHandler(this.btnTres_Click);
             // 
             // btnMas
             // 
@@ -144,15 +154,17 @@
             this.btnMas.TabIndex = 10;
             this.btnMas.Text = "+";
             this.btnMas.UseVisualStyleBackColor = true;
+            this.btnMas.Click += new System.EventHandler(this.btnMas_Click);
             // 
             // btnIgual
             // 
-            this.btnIgual.Location = new System.Drawing.Point(198, 194);
+            this.btnIgual.Location = new System.Drawing.Point(198, 243);
             this.btnIgual.Name = "btnIgual";
             this.btnIgual.Size = new System.Drawing.Size(37, 30);
             this.btnIgual.TabIndex = 11;
             this.btnIgual.Text = "=";
             this.btnIgual.UseVisualStyleBackColor = true;
+            this.btnIgual.Click += new System.EventHandler(this.btnIgual_Click);
             // 
             // btnCero
             // 
@@ -162,33 +174,37 @@
             this.btnCero.TabIndex = 12;
             this.btnCero.Text = "0";
             this.btnCero.UseVisualStyleBackColor = true;
+            this.btnCero.Click += new System.EventHandler(this.btnCero_Click);
             // 
             // btnPor
             // 
-            this.btnPor.Location = new System.Drawing.Point(85, 243);
+            this.btnPor.Location = new System.Drawing.Point(143, 243);
             this.btnPor.Name = "btnPor";
             this.btnPor.Size = new System.Drawing.Size(37, 30);
             this.btnPor.TabIndex = 13;
             this.btnPor.Text = "x";
             this.btnPor.UseVisualStyleBackColor = true;
+            this.btnPor.Click += new System.EventHandler(this.btnPor_Click);
             // 
             // btnMenos
             // 
-            this.btnMenos.Location = new System.Drawing.Point(143, 243);
+            this.btnMenos.Location = new System.Drawing.Point(198, 194);
             this.btnMenos.Name = "btnMenos";
             this.btnMenos.Size = new System.Drawing.Size(37, 30);
             this.btnMenos.TabIndex = 14;
             this.btnMenos.Text = "--";
             this.btnMenos.UseVisualStyleBackColor = true;
+            this.btnMenos.Click += new System.EventHandler(this.btnMenos_Click);
             // 
             // btnCE
             // 
-            this.btnCE.Location = new System.Drawing.Point(198, 243);
+            this.btnCE.Location = new System.Drawing.Point(85, 243);
             this.btnCE.Name = "btnCE";
             this.btnCE.Size = new System.Drawing.Size(37, 30);
             this.btnCE.TabIndex = 15;
             this.btnCE.Text = "CE";
             this.btnCE.UseVisualStyleBackColor = true;
+            this.btnCE.Click += new System.EventHandler(this.btnCE_Click);
             // 
             // Sesion4
             // 
@@ -212,6 +228,7 @@
             this.Controls.Add(this.tbPantalla);
             this.Controls.Add(this.btnSiete);
             this.Name = "Sesion4";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Sesion4";
             this.ResumeLayout(false);
             this.PerformLayout();
