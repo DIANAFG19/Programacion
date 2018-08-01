@@ -42,6 +42,7 @@
             // 
             // btnSesion1
             // 
+            this.btnSesion1.AutoSize = true;
             this.btnSesion1.BackColor = System.Drawing.Color.LimeGreen;
             this.btnSesion1.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSesion1.Location = new System.Drawing.Point(29, 27);
@@ -54,6 +55,7 @@
             // 
             // btnCerrar
             // 
+            this.btnCerrar.AutoSize = true;
             this.btnCerrar.BackColor = System.Drawing.Color.LimeGreen;
             this.btnCerrar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCerrar.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -67,6 +69,7 @@
             // 
             // btnSesion9
             // 
+            this.btnSesion9.AutoSize = true;
             this.btnSesion9.BackColor = System.Drawing.Color.LimeGreen;
             this.btnSesion9.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSesion9.Location = new System.Drawing.Point(248, 140);
@@ -78,6 +81,7 @@
             // 
             // btnSesion8
             // 
+            this.btnSesion8.AutoSize = true;
             this.btnSesion8.BackColor = System.Drawing.Color.LimeGreen;
             this.btnSesion8.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSesion8.Location = new System.Drawing.Point(137, 140);
@@ -89,6 +93,7 @@
             // 
             // btnSesion7
             // 
+            this.btnSesion7.AutoSize = true;
             this.btnSesion7.BackColor = System.Drawing.Color.LimeGreen;
             this.btnSesion7.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSesion7.Location = new System.Drawing.Point(29, 140);
@@ -100,6 +105,7 @@
             // 
             // btnSesion6
             // 
+            this.btnSesion6.AutoSize = true;
             this.btnSesion6.BackColor = System.Drawing.Color.LimeGreen;
             this.btnSesion6.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSesion6.Location = new System.Drawing.Point(248, 82);
@@ -111,6 +117,7 @@
             // 
             // btnSesion5
             // 
+            this.btnSesion5.AutoSize = true;
             this.btnSesion5.BackColor = System.Drawing.Color.LimeGreen;
             this.btnSesion5.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSesion5.Location = new System.Drawing.Point(137, 82);
@@ -122,6 +129,7 @@
             // 
             // btnSesion4
             // 
+            this.btnSesion4.AutoSize = true;
             this.btnSesion4.BackColor = System.Drawing.Color.LimeGreen;
             this.btnSesion4.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSesion4.Location = new System.Drawing.Point(29, 82);
@@ -134,6 +142,7 @@
             // 
             // btnSesion3
             // 
+            this.btnSesion3.AutoSize = true;
             this.btnSesion3.BackColor = System.Drawing.Color.LimeGreen;
             this.btnSesion3.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSesion3.Location = new System.Drawing.Point(248, 27);
@@ -146,6 +155,7 @@
             // 
             // btnSesion2
             // 
+            this.btnSesion2.AutoSize = true;
             this.btnSesion2.BackColor = System.Drawing.Color.LimeGreen;
             this.btnSesion2.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnSesion2.Location = new System.Drawing.Point(137, 27);
@@ -161,6 +171,7 @@
             this.AcceptButton = this.btnSesion1;
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoSize = true;
             this.CancelButton = this.btnCerrar;
             this.ClientSize = new System.Drawing.Size(376, 271);
             this.Controls.Add(this.btnSesion2);
@@ -177,6 +188,7 @@
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "INICIO";
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 

@@ -16,6 +16,7 @@ namespace Programacion
         {
             InitializeComponent();
         }
+    
 
         private void btnSesion1_Click(object sender, EventArgs e)
         {
@@ -51,7 +52,7 @@ namespace Programacion
         private void btnCerrar_Click(object sender, EventArgs e)
         {
             //Cerramos nuestro formulario.
-            Close();
+            base.Dispose();
         }
     }
 }

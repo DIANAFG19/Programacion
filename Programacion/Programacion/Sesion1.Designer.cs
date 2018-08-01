@@ -37,7 +37,7 @@
             this.btnCerrar.BackColor = System.Drawing.Color.LimeGreen;
             this.btnCerrar.DialogResult = System.Windows.Forms.DialogResult.Cancel;
             this.btnCerrar.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnCerrar.Location = new System.Drawing.Point(167, 36);
+            this.btnCerrar.Location = new System.Drawing.Point(168, 40);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(105, 60);
             this.btnCerrar.TabIndex = 3;
@@ -49,7 +49,7 @@
             // 
             this.btnRegresar.BackColor = System.Drawing.Color.LimeGreen;
             this.btnRegresar.Font = new System.Drawing.Font("Lucida Fax", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnRegresar.Location = new System.Drawing.Point(40, 36);
+            this.btnRegresar.Location = new System.Drawing.Point(40, 40);
             this.btnRegresar.Name = "btnRegresar";
             this.btnRegresar.Size = new System.Drawing.Size(105, 60);
             this.btnRegresar.TabIndex = 2;
@@ -63,7 +63,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.CancelButton = this.btnCerrar;
-            this.ClientSize = new System.Drawing.Size(310, 130);
+            this.ClientSize = new System.Drawing.Size(310, 138);
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnRegresar);
             this.Name = "Sesion1";
