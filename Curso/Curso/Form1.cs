@@ -25,6 +25,5 @@ namespace Curso
             this.StartPosition = FormStartPosition.CenterScreen;
         }
 
-       
     }
 }

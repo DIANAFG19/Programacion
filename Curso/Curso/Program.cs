@@ -12,11 +12,14 @@ namespace Curso
         /// Punto de entrada principal para la aplicación.
         /// </summary>
         [STAThread]
-        static void Main()
+        static void Main(string[] args)
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Presentacion());
+            //Objeto aplicación.
+            Aplicacion ap = new Aplicacion();
+            ap.Run(args);
+            //Application.Run(new Presentacion());
         }
     }
 }
