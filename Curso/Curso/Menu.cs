@@ -32,5 +32,10 @@ namespace Curso
             //Lo cierra terminando las acciones de todos los componnetes y no quede trabajando nada en memoria.
             Dispose();
         }
+
+        private void btnSesion2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
