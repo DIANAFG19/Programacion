@@ -180,6 +180,7 @@
             this.Controls.Add(this.btnCerrar);
             this.Controls.Add(this.btnSesion1);
             this.Name = "Menu";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Menu";
             this.ResumeLayout(false);
             this.PerformLayout();
