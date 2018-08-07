@@ -63,6 +63,7 @@
             this.tbGradosC.TabIndex = 2;
             this.tbGradosC.Text = "0.00";
             this.tbGradosC.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tbGradosC.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbGradosC_KeyPress);
             // 
             // lGradosF
             // 
@@ -81,6 +82,7 @@
             this.tbGradosF.TabIndex = 4;
             this.tbGradosF.Text = "32.00";
             this.tbGradosF.TextAlign = System.Windows.Forms.HorizontalAlignment.Right;
+            this.tbGradosF.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbGradosF_KeyPress);
             // 
             // btnAceptar
             // 
@@ -90,6 +92,7 @@
             this.btnAceptar.TabIndex = 5;
             this.btnAceptar.Text = "&Aceptar";
             this.btnAceptar.UseVisualStyleBackColor = true;
+            this.btnAceptar.Click += new System.EventHandler(this.btnAceptar_Click);
             // 
             // btnCancelar
             // 
@@ -100,6 +103,7 @@
             this.btnCancelar.TabIndex = 6;
             this.btnCancelar.Text = "&Cancelar";
             this.btnCancelar.UseVisualStyleBackColor = true;
+            this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
             // Sesion1
             // 
